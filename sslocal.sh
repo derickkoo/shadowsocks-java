@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 #default value for local port
-local_port=1080
+local_port=62080
 #default value for cipher method
 method="aes-256-cfb"
 #default value for server port
-server_port=8388
+server_port=62081
 local_address="127.0.0.1"
 time_out=600
 
@@ -20,9 +20,9 @@ while test $# -gt 0; do
                 echo "Proxy options:"
                 echo "  -c CONFIG              path to config file"
                 echo "  -s SERVER_ADDR         server address"
-                echo "  -p SERVER_PORT         server port, default: 8388"
+                echo "  -p SERVER_PORT         server port, default: 62081"
                 echo "  -b LOCAL_ADDR          local binding address, default: 127.0.0.1"
-                echo "  -l LOCAL_PORT          local port, default: 1080"
+                echo "  -l LOCAL_PORT          local port, default: 61080"
                 echo "  -k PASSWORD            password"
                 echo "  -m METHOD              encryption method, default: aes-256-cfb"
                 echo "                         Sodium:"

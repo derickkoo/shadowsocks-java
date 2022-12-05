@@ -16,7 +16,7 @@ mvn package
 
 ## Getting Started
 
-创建配置文件
+创建配置文件config.json
 
 ```json
 {
@@ -60,10 +60,3 @@ chmod +x ./ssserver.sh
 * `aes-128-cfb`, `aes-192-cfb`, `aes-256-cfb`
 * `aes-128-ofb`, `aes-192-ofb`, `aes-256-ofb`
 * `chacha20`,  `chacha20-ietf`
-
-## TODO
-
-- [ ] Documentation
-- [ ] 支持UDP协议
-- [ ] 支持AEAD加密
-- [ ] 编写使用脚本
