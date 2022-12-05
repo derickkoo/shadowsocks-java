@@ -9,7 +9,7 @@ Shadowsocks-java 是一个基于SOCKS5代理的使用java开发的[shadowsocks](
 ## Build & Install
 
 ```bash
-git clone https://github.com/zhihengjiang/shasowsocks-java
+git clone https://github.com/derickkoo/shasowsocks-java
 cd shadowsocks-java
 mvn package
 ```
